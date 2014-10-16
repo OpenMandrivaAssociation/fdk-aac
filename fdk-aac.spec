@@ -4,7 +4,7 @@
 
 Name: fdk-aac
 Version: 0.1.3
-Release: 1
+Release: 2
 # https://github.com/mstorsjo/fdk-aac
 Source0: http://heanet.dl.sourceforge.net/project/opencore-amr/fdk-aac/fdk-aac-%{version}.tar.gz
 Summary: AAC audio encoder
