@@ -4,7 +4,7 @@
 
 Name:		libfdk-aac
 Version:	0.1.3
-Release:	1
+Release:	3
 Summary:	A standalone library of the Fraunhofer FDK AAC code from Android
 
 Group:		System/Libraries
