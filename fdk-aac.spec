@@ -3,14 +3,14 @@
 %define	devname	%mklibname -d fdk-aac
 
 Name:		libfdk-aac
-Version:	0.1.4
-Release:	2
+Version:	0.1.5
+Release:	1
 Summary:	A standalone library of the Fraunhofer FDK AAC code from Android
 
 Group:		System/Libraries
 License:	BSD style
 URL:		https://sourceforge.net/projects/opencore-amr/
-Source0:	http://garr.dl.sourceforge.net/project/opencore-amr/fdk-aac/fdk-aac-%{version}.tar.gz
+Source0:	https://downloads.sourceforge.net/project/opencore-amr/fdk-aac/fdk-aac-%{version}.tar.gz
 
 %description
 A standalone library of the Fraunhofer FDK AAC code from Android.
