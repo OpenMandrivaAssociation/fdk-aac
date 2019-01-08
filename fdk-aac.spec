@@ -1,9 +1,9 @@
-%define	major	1
+%define	major	2
 %define	libname	%mklibname fdk-aac %{major}
 %define	devname	%mklibname -d fdk-aac
 
 Name:		libfdk-aac
-Version:	0.1.6
+Version:	2.0.0
 Release:	1
 Summary:	A standalone library of the Fraunhofer FDK AAC code from Android
 
