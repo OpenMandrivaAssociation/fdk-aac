@@ -3,7 +3,7 @@
 %define	devname	%mklibname -d fdk-aac
 
 Name:		libfdk-aac
-Version:	2.0.0
+Version:	2.0.1
 Release:	1
 Summary:	A standalone library of the Fraunhofer FDK AAC code from Android
 
@@ -43,7 +43,7 @@ developing applications that use %{name}.
 %configure
 
 %install
-%makeinstall_std
+%make_install
 
 %files -n %{libname}
 %{_libdir}/libfdk-aac.so.%{major}*
