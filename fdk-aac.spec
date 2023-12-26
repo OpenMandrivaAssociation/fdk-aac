@@ -1,5 +1,6 @@
 %define	major	2
-%define	libname	%mklibname fdk-aac %{major}
+%define	libname	%mklibname fdk-aac
+%define	oldlibname	%mklibname fdk-aac 2
 %define	devname	%mklibname -d fdk-aac
 
 Name:		libfdk-aac
@@ -19,6 +20,7 @@ https://sourceforge.net/projects/opencore-amr/
 %package -n	%{libname}
 Summary:	A standalone library of the Fraunhofer FDK AAC code from Android
 Group:		System/Libraries
+%rename %{oldlibname}
 
 %description -n %{libname}
 A standalone library of the Fraunhofer FDK AAC code from Android.
