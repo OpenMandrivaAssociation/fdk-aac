@@ -13,6 +13,11 @@ License:	BSD style
 URL:		https://sourceforge.net/projects/opencore-amr/
 Source0:	https://downloads.sourceforge.net/project/opencore-amr/fdk-aac/fdk-aac-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 A standalone library of the Fraunhofer FDK AAC code from Android.
 https://sourceforge.net/projects/opencore-amr/
