@@ -80,7 +80,7 @@ developing applications that use fdk-xhe-aac.
 %{_includedir}/*
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/fdk-aac.pc
-%{_libdir}/cmake/%{name}/
+#{_libdir}/cmake/%{name}/
 
 %files -n %{libxhe}
 %license xhe-aac/NOTICE
